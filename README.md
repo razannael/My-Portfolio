@@ -16,5 +16,7 @@ Welcome to my portfolio repository! This portfolio showcases my work using a com
 
 This portfolio is built using React.js for dynamic UI elements, Three.js for immersive 3D graphics, and Tailwind CSS for modern styling. It offers a seamless integration of 3D visuals, interactive components, and sleek design to showcase my projects and skills effectively.
 
-Feel free to explore the repository and reach out to me with any questions or feedback!
+## 🔗 Live Link
+
+Check out the live version of my portfolio [here](https://razan-tuhaimer-portfolio.onrender.com/). Feel free to explore the repository and reach out to me with any questions or feedback!
 
