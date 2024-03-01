@@ -26,7 +26,8 @@ import python from "./tech/python.png"
 import ecommerce from "./ecommerce.png";
 import todo from "./todo.png";
 import vtravel from "./vtravel.png";
-
+import weather from './weather.png'
+import dashboard from './dashboard.png'
 import x from './x.png'
 import linkedin from './linkedin.png'
 import instegram from './instegram.png'
@@ -65,4 +66,6 @@ export {
   ecommerce,
   todo,
   vtravel,
+  weather,
+  dashboard
 };

@@ -22,6 +22,8 @@ import {
     todo,
     threejs,
     vtravel,
+    weather,
+    dashboard,
     x,
     leetcode,
     linkedin,
@@ -195,6 +197,54 @@ import {
       ],
       image: vtravel,
       source_code_link: "https://github.com/razannael/V-Travel",
+    },
+    {
+      name: "Weather App",
+      description:
+        "weather app made with JavaScript, CSS, and HTML,  JQuery and bootstarp, showing current forecasts instantly. Its easy design makes it simple to check the weather quickly, helping you plan your day with accurate updates.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },{
+          name: "css",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: weather,
+      source_code_link: "https://github.com/razannael/Weather-App",
+    },
+    {
+      name: "Admin Dashoard",
+      description:
+        "A feature-rich admin dashboard using React, integrating Syncfusion for dynamic charts and components, and incorporating functionalities like dark mode, theme customization, and seamless navigation.",
+      tags: [
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },{
+          name: "JQuery",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/razannael/React-Admin-Dashboard",
     },
   ];
   
