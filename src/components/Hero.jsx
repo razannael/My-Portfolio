@@ -4,7 +4,7 @@ import { styles } from '../styles.js'
 import {ComputersCanvas} from './canvas'
 function Hero() {
   const handleFile =()=>{
-    window.open('https://drive.google.com/file/d/14IksOOTn6p2zg_52sQO34o_VGIdAp7-u/view?usp=drive_link')
+    window.open('https://drive.google.com/file/d/14fmrxNx3XrR1LJ7c0PUFqhomO-FuQMDX/view?usp=drive_link')
   }
   return (
     <section className='relative w-full h-screen mx-auto'>
