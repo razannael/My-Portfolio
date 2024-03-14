@@ -1,7 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Hero, Navbar, Tech, Works, StarsCanvas  } from "./components";
-import { platforms } from "./constants/index.js";
 import MyPlatforms from "./components/MyPlatforms.jsx";
 
 const App = () => {
