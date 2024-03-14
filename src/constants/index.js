@@ -24,6 +24,8 @@ import {
     vtravel,
     weather,
     dashboard,
+    promtopia,
+    advice,
     x,
     leetcode,
     linkedin,
@@ -52,12 +54,20 @@ import {
       icon: web,
     },
     {
+      title: "Next JS Developer",
+      icon: backend,
+    },
+    {
       title: "React JS Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
+    },
+    {
+      title: "React Native Developer",
+      icon: mobile,
     },
     {
       title: "Problem Solver",
@@ -78,10 +88,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -105,10 +115,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    // {
-    //   name: "Three JS",
-    //   icon: threejs,
-    // },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
     {
       name: "git",
       icon: git,
@@ -239,12 +249,57 @@ import {
           name: "JavaScript",
           color: "pink-text-gradient",
         },{
-          name: "JQuery",
+          name: "Syncfusion",
           color: "blue-text-gradient",
         }
       ],
       image: dashboard,
       source_code_link: "https://github.com/razannael/React-Admin-Dashboard",
+    },
+    {
+      name: "FullStack Promtopia",
+      description:
+        "An innovative full-stack application utilizing Next.js, Node.js, MongoDB, and Tailwind CSS, offering Google authentication, personalized prompt management, and a collaborative platform for users to discover and edit a diverse array of prompts.",
+      tags: [
+        {
+          name: "Next js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Mongo DB",
+          color: "pink-text-gradient",
+        },{
+          name: "Node js",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: promtopia,
+      source_code_link: "https://github.com/razannael/FullStack-Promptopia",
+    },
+    {
+      name: "Advice App",
+      description:
+        "A sleek quotes generator crafted with React, featuring a minimalist design powered by Tailwind CSS for a seamless, aesthetic experience.",
+      tags: [
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: advice,
+      source_code_link: "https://github.com/razannael/Advice-App",
     },
   ];
   
@@ -252,7 +307,7 @@ const platforms =[
   {
     name: "Github",
     icon: github1,
-    link: "https://github.com/"
+    link: "https://github.com/razannael"
   },
   {
     name: "x",

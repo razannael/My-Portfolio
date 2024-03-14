@@ -28,6 +28,8 @@ import todo from "./todo.png";
 import vtravel from "./vtravel.png";
 import weather from './weather.png'
 import dashboard from './dashboard.png'
+import promtopia from './promtopia.png'
+import advice from './advice.png'
 import x from './x.png'
 import linkedin from './linkedin.png'
 import instegram from './instegram.png'
@@ -67,5 +69,7 @@ export {
   todo,
   vtravel,
   weather,
-  dashboard
+  dashboard,
+  promtopia,
+  advice
 };
