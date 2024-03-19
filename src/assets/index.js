@@ -22,7 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import bootstrap from "./tech/bootstrap.png"
-import python from "./tech/python.png"
+import python from "./tech/python.png";
+import anime from './anemi.png'
 import ecommerce from "./ecommerce.png";
 import todo from "./todo.png";
 import vtravel from "./vtravel.png";
@@ -71,5 +72,6 @@ export {
   weather,
   dashboard,
   promtopia,
+  anime,
   advice
 };

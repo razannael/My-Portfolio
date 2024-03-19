@@ -20,6 +20,7 @@ import {
     bootstrap,
     ecommerce,
     todo,
+    anime,
     threejs,
     vtravel,
     weather,
@@ -88,10 +89,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+     {
+       name: "TypeScript",
+      icon: typescript,
+     },
     {
       name: "React JS",
       icon: reactjs,
@@ -139,6 +140,27 @@ import {
   
 
   const projects = [
+    {
+      name: "Anime Explorer",
+      description:
+        "Anime Vault is a sleek and snazzy anime movie explorer powered by Next.js, TypeScript, and Framer Motion. Dive into a universe of endless anime adventures with seamless server-side rendering, server actions, infinite scroll, and slick animations!",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: anime,
+      source_code_link: "https://github.com/razannael/Anime-Explorer",
+    },
     {
       name: "E-commerce",
       description:
