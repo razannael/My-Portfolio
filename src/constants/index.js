@@ -27,6 +27,7 @@ import {
     dashboard,
     promtopia,
     advice,
+    apple,
     x,
     leetcode,
     linkedin,
@@ -140,6 +141,31 @@ import {
   
 
   const projects = [
+    {
+      name: "Apple Website",
+      description:
+        "Combines GSAP for fluid animations, 3D model rendering, and a bespoke video carousel, promising an immersive user journey across devices. Utilizing React.js, Three.js, and GSAP, it ensures seamless responsiveness for optimal viewing on any screen size.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Three.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "GSAP",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: apple,
+      source_code_link: "https://github.com/razannael/Apple-Website",
+    },
     {
       name: "Anime Explorer",
       description:

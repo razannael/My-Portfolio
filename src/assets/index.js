@@ -31,6 +31,7 @@ import weather from './weather.png'
 import dashboard from './dashboard.png'
 import promtopia from './promtopia.png'
 import advice from './advice.png'
+import apple from './apple.png'
 import x from './x.png'
 import linkedin from './linkedin.png'
 import instegram from './instegram.png'
@@ -73,5 +74,6 @@ export {
   dashboard,
   promtopia,
   anime,
-  advice
+  advice,
+  apple
 };
