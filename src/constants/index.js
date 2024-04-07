@@ -106,13 +106,13 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },{
-       name : "Bootstrap",
-       icon: bootstrap,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },{
+    //    name : "Bootstrap",
+    //    icon: bootstrap,
+    // },
     {
       name: "MongoDB",
       icon: mongodb,
@@ -129,10 +129,10 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "Python",
-      icon:python
-    }
+    // {
+    //   name: "Python",
+    //   icon:python
+    // }
     // {
     //   name: "docker",
     //   icon: docker,
