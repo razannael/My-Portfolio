@@ -29,7 +29,7 @@ function Navbar() {
                 active === link.title
                 ? "text-white"
                 : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[14px] font-medium cursor-pointer`}
               onClick={()=> setActive(link.title)}
               >
              <a href={`#${link.id}`}>{link.title}</a>
