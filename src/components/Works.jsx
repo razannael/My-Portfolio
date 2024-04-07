@@ -47,12 +47,12 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className='mt-5'>
+         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
-        </div>
+        </div> 
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -61,7 +61,7 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
-        </div>
+        </div> 
       </Tilt>
     </motion.div>
   );
@@ -88,7 +88,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-14 justify-center'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
@@ -97,4 +97,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "work");
+export default SectionWrapper(Works, "");

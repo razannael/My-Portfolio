@@ -22,7 +22,7 @@ const CanvasLoader = () => {
           marginTop: 30,
         }}
       >
-        {progress.toFixed(2)}%
+        Loading...
       </p>
     </Html>
   );
