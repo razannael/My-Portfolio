@@ -17,8 +17,8 @@ function Navbar() {
             window.scrollTo(0,0);
           }}
           >
-            <img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
-            <p className='text-white text-[18px] font-bold cursor-pointer flex'>Razan&nbsp;<span
+            <img src={logo} alt="logo" className='w-8 h-8 object-contain'/>
+            <p className='text-white text-[17px] font-bold cursor-pointer flex'>Razan&nbsp;<span
             className='sm: block'
             > | Front End Developer</span></p>
           </Link>
