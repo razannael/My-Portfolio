@@ -32,7 +32,9 @@ import {
     leetcode,
     linkedin,
     instegram,
-    github1
+    github1,
+    zoom
+    
   } from "../assets";
   
   export const navLinks = [
@@ -141,6 +143,31 @@ import {
   
 
   const projects = [
+    {
+      name: "Full Stack Zoom",
+      description:
+        "A video conferencing platform built with Next.js and TypeScript. Secure, real-time meetings with features like screen sharing and recording. Powered by Clerk, getstream, shadcn, and Tailwind CSS.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Clerk",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: zoom,
+      source_code_link: "https://github.com/razannael/Full-Stack-Zoom-Clone",
+    },
     {
       name: "Apple Website",
       description:

@@ -32,6 +32,7 @@ import dashboard from './dashboard.png'
 import promtopia from './promtopia.png'
 import advice from './advice.png'
 import apple from './apple.png'
+import zoom from './yoom.png'
 import x from './x.png'
 import linkedin from './linkedin.png'
 import instegram from './instegram.png'
@@ -75,5 +76,6 @@ export {
   promtopia,
   anime,
   advice,
-  apple
+  apple,
+  zoom
 };
