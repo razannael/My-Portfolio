@@ -44,7 +44,7 @@ function About() {
     <motion.p variants={fadeIn("","",0.1,1)}
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
       I'm a skilled software engineer with experience in JavaScript,
-       and expertise in frameworks like React, Node js.
+       and expertise in frameworks like Next.js, React Native, React, Node js.
        I'm a quick learner and collaborate closely with clients to create effeicient,
        scalable, and user-friendly solutions that solve real-world problems.
        Let's work together to bring your ideas to life!
