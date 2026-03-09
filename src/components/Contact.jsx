@@ -59,16 +59,15 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_0wfcthq";
-    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "template_su3vuf4";
-    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "7Jm8RrLyfsfGOFAJ8";
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
     emailjs
       .send(serviceId, templateId, {
-        from_name: form.name,
-        to_name: "Razan Tohimer",
-        from_email: form.email,
-        to_email: "razantohimer@gmail.com",
+        name: form.name,
+        email: form.email,
+        title: form.name,
         message: form.message,
       }, publicKey)
       .then(
